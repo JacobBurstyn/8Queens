@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textviewLayoutMargin">8dp</dimen>
+    <dimen name="buttonHeight">44.3dp</dimen>
+    <dimen name="buttonWidth">44.3dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="landbuttonWidth">35dp</dimen>
+    <dimen name="landbuttonHeight">35dp</dimen>
+</resources>

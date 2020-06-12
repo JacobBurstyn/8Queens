@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/action_new_game"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Clear"
+        app:showAsAction="ifRoom|withText"
+        android:onClick="Clear"/>
+
+
+    <item
+        android:icon="@drawable/redqueensb"
+        android:title="@string/action_about"
+        app:showAsAction="never"
+        android:onClick="showAbout"/>
+
+    <item
+        android:id="@+id/continuous_check"
+        android:title="@string/continuous_check"
+        android:checkable="true"
+        app:showAsAction="never"
+        />
+
+</menu>
