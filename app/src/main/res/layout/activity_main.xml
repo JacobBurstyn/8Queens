@@ -32,6 +32,13 @@
                 android:onClick="clearBoard"
                 android:text="Clear" />
 
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="launchVisualizer"
+                android:text="Solution Visualizer" />
+
 
         </LinearLayout>
 

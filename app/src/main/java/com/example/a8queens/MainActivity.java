@@ -1,6 +1,7 @@
 package com.example.a8queens;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Build;
@@ -144,6 +145,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void launchVisualizer(View view) {
+        startActivity(new Intent(MainActivity.this, visualizer.class));
+    }
 
     public void press(View view) {
 
@@ -238,6 +242,8 @@ public class MainActivity extends AppCompatActivity {
                 mEightQueens.board[i][j] = false;
             }
         }
+        TextView t = findViewById(R.id.displaymessage);
+        t.setText("");
         redrawBoard();
     }
 
